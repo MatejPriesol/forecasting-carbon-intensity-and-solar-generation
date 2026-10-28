@@ -1,15 +1,14 @@
-
 # Forecasting Carbon Intensity and Solar Generation in the Building Sector
 
-This repository contains code for the bachelor's thesis on the topic of forecasting carnon intensity and solar generation. The data for this project was taken from an [NeurIPS 2023 Citylearn Challenge](https://www.aicrowd.com/challenges/neurips-2023-citylearn-challenge).
+This repository contains code for my Bachelor's thesis on forecasting carbon intensity and solar generation. The data for this project was taken from the [NeurIPS 2023 CityLearn Challenge](https://www.aicrowd.com/challenges/neurips-2023-citylearn-challenge).
 
-The project consist of three directories:
+The project consists of three main directories:
 
-1. **Data** - This directory contains all the required datasets. The files provided in the competition can be found in the *original* sub-directory. The sub-directories *results* and *train-test-split* contain the outpu files from the models and preprocessing, respectively. 
+1. **Data** - Contains all required datasets. The original competition files are in the *original* sub-directory. The *results* and *train-test-split* sub-directories contain the output files from the models and preprocessing steps, respectively. 
 
-2. **Data_preprocessing** - This directory contains the ipynb files with data visualization and preprocessing. 
+2. **Data_preprocessing** - Contains Jupyter notebooks (`.ipynb`) detailing data visualization and preprocessing. 
 
-3. **Models** - This directory contains the three main ipynb files, one for for each of the models (MLP, LSTM, and GRU). Additioanlly, one more file that combines the results is included. Note that running these files will rewrite the only acquired results in the *Data* directory.
+3. **Models** - Contains the three main notebooks, one for each evaluated model (MLP, LSTM, and GRU). Additionally, a final notebook that combines and compares the results is included. *Note: Running these notebooks will overwrite the previously acquired results stored in the Data directory.*
 
-To run the code, make sure all the requirements are installed. All files can be run independently of each other since all the preprocessing steps were already done and the results were obtained.
-
+### Running the Code
+Ensure all requirements are installed before running. All files can be executed independently of each other, as all preprocessing steps have already been completed and the output results are saved.
